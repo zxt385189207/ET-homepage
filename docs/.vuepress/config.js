@@ -26,6 +26,7 @@ module.exports = {
             {text: '指南', link: '', items: [
                     {text: '指南', link: '/pages/a2f161/'},
                     {text: 'Guide', link: '/pages/1e1b9a/'},
+                    {text: '提交文档', link: '/doc/notes/'},
                     // {text: '相关文章', items: [
                     //         {text: '--', link: '/pages/8dfab5/'},
                     //     ]
@@ -190,7 +191,7 @@ module.exports = {
 
     markdown: {
         lineNumbers: true,
-        extractHeaders: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+        extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
     },
 
     // 监听文件变化并重新构建
