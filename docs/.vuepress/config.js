@@ -129,11 +129,11 @@ module.exports = {
 
         ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
           thirdparty: [ // 可选，默认 []
-            // {
-            //   title: '在GitHub中搜索',
-            //   frontUrl: 'https://github.com/search?q=', // 搜索链接的前面部分
-            //   behindUrl: '' // 搜索链接的后面部分，可选，默认 ''
-            // },
+            {
+              title: '在GitHub中搜索',
+              frontUrl: 'https://github.com/search?q=', // 搜索链接的前面部分
+              behindUrl: '' // 搜索链接的后面部分，可选，默认 ''
+            },
             {
               title: '在ET论坛中搜索',
               frontUrl: 'https://et-framework.cn/?q=',
@@ -189,7 +189,7 @@ module.exports = {
     ],
 
     markdown: {
-        // lineNumbers: true,
+        lineNumbers: true,
         extractHeaders: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
     },
 
